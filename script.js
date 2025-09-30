@@ -68,7 +68,7 @@ password.addEventListener("input", () => {
     clearError(password, passwordError);
   }
 });
-
+// confirmPassword input field
 confirmPassword.addEventListener("input", () => {
   if (confirmPassword.value !== password.value) {
     showError(confirmPassword, confirmPasswordError, "Passwords do not match.");
